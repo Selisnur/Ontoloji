@@ -1,0 +1,515 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#"
+     xml:base="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Aksiyon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Aksiyon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Filmler"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bu kategoride aksiyon filmleri bulunmaktadır.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aksiyon</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://m.imdb.com/list/ls027328830/?page=2</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Aksiyon_dizileri -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Aksiyon_dizileri">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Diziler"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bu kategori aksiyon dizilierini içermektedir.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aksiyon dizileri</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/search/title/?genres=action&amp;explore=title_type,genres&amp;title_type=tvSeries</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Anne_With_an_A -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Anne_With_an_A">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Drama_dizileri"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The adventures of a young orphan girl living in the late 19th century. Follow Anne as she learns to navigate her new life on Prince Edward Island, in this new take on L.M. Montgomery&apos;s classic novels.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27 bölüm</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anne Wiht An A</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/title/tt5421602/?ref_=nv_sr_srsg_0</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Bad_Boys -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Bad_Boys">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Aksiyon"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miami detectives Mike Lowrey and Marcus Burnett must face off against a mother-and-son pair of drug lords who wreak vengeful havoc on their city.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 saat 59 dakika</dc:format>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1995</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bad Boys</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://m.imdb.com/title/tt1502397/?ref_=nv_sr_srsg_0</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Bilim_kurgu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Bilim_kurgu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Filmler"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bu kategoride bilim kurgu filmleri bulunmakta</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bilim kurgu</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/list/ls021424736/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Bilim_kurgu_dizileri -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Bilim_kurgu_dizileri">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Diziler"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bu kategori bilim kurgu dizilerini içermektedir.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bilim kurgu dizileri</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.beyazperde.com/diziler/en/iyi/tur-13021/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Black_Swan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Black_Swan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Drama"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A committed dancer struggles to maintain her sanity after winning the lead role in a production of Tchaikovsky&apos;s &quot;Swan Lake&quot;.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 saat 48 dakika</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Swan</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/title/tt0947798/?ref_=nv_sr_srsg_0</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Chernobly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Chernobly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Drama_dizileri"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-2019</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world&apos;s worst man-made catastrophes.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 Bölüm</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chernobly</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/title/tt7366338/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Dark -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Dark">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Bilim_kurgu_dizileri"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A family saga with a supernatural twist, set in a German town, where the disappearance of two young children exposes the relationships among four families.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19 bölüm</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dark</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/title/tt5753856/?ref_=fn_al_tt_1</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Diziler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Diziler">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bu kategoride diziler bulunmaktadır.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diziler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Drama -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Drama">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Filmler"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bu kategoride drama filmleri bulunmaktadır.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drama</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/list/ls066019618/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Drama_dizileri -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Drama_dizileri">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Diziler"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drama dizileri bu kategori altında bulunmaktadır.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drama Dizileri</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/list/ls021104904/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Filmler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Filmler">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bu kategoride filmler bulunmaktadır.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filmler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Friends -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Friends">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Komedi_dizileri"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1994-2004</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Follows the personal and professional lives of six twenty to thirty-something-year-old friends living in Manhattan.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">236 bölüm</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Friends</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/title/tt0460649/?ref_=nv_sr_srsg_0</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Fringe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Fringe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Bilim_kurgu_dizileri"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008-2013</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An F.B.I. agent is forced to work with an institutionalized scientist and his son in order to rationalize a brewing storm of unexplained phenomena.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100 bölüm</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fringe</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/title/tt1119644/?ref_=nv_sr_srsg_0</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Gladiator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Gladiator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Aksiyon"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 saat 35 dakika</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gladiator</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://m.imdb.com/title/tt0172495/?ref_=nv_sr_srsg_0</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Hangover -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Hangover">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Komedi"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Three buddies wake up from a bachelor party in Las Vegas, with no memory of the previous night and the bachelor missing. They make their way around the city in order to find their friend before his wedding.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 saat 40 dakika</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hangover</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/title/tt1119646/?ref_=nv_sr_srsg_0</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Homeland -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Homeland">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Aksiyon_dizileri"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-2020</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bipolar CIA operative becomes convinced a prisoner of war has been turned by al-Qaeda and is planning to carry out a terrorist attack on American soil.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">96 bölüm</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homeland</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/title/tt1796960/?ref_=nv_sr_srsg_0</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#How_I_Met_Your_Mother -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#How_I_Met_Your_Mother">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Komedi_dizileri"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005-2014</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A father recounts to his children - through a series of flashbacks - the journey he and his four best friends took leading up to him meeting their mother.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">208 bölüm</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">How I Met Your Mother</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/title/tt0460649/?ref_=nv_sr_srsg_0</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Inception -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Inception">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Bilim_kurgu"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 saat 28 dakika</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inception</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/title/tt1375666/?ref_=fn_al_tt_1</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Interstellar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Interstellar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Bilim_kurgu"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A team of explorers travel through a wormhole in space in an attempt to ensure humanity&apos;s survival.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 saat 49 dakika</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interstellar</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/title/tt0816692/?ref_=nv_sr_srsg_0</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Iron_Man -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Iron_Man">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Aksiyon"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miami detectives Mike Lowrey and Marcus Burnett must face off against a mother-and-son pair of drug lords who wreak vengeful havoc on their city.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 saat 6 dakika</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iron Man</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://m.imdb.com/title/tt0371746/?ref_=nv_sr_srsg_0</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Komedi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Komedi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Filmler"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bu kategoride komedi filmleri bulunmaktadır.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Komedi Filmleri</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/list/ls009668747/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Komedi_dizileri -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Komedi_dizileri">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Diziler"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bu kategoride komedi dizileri bulunmaktadır.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Komedi Dizileri</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/search/title/?genres=comedy&amp;explore=title_type,genres&amp;title_type=tvSeries&amp;ref_=adv_explore_rhs</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Leon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Leon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Drama"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1994</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathilda, a 12-year-old girl, is reluctantly taken in by Léon, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his protégée and learns the assassin&apos;s trade.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 saat 50 dakika</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leon</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/title/tt0110413/?ref_=fn_al_tt_1</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Matrix -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Matrix">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Bilim_kurgu"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1999</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 saat 16 dakika</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matrix</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/title/tt0133093/?ref_=nv_sr_srsg_0</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Peaky_Blinders -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Peaky_Blinders">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Aksiyon_dizileri"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gangster family epic set in 1919 Birmingham, England; centered on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37 bölüm</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karma</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peaky Blinders</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/title/tt2442560/?ref_=nv_sr_srsg_0</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Sister_Act -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Sister_Act">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Komedi"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1992</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When a worldly singer witnesses a mob crime, the police hide her as a nun in a traditional convent where she has trouble fitting in.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 saat 40 dakika</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sister Act</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/title/tt0105417/?ref_=nv_sr_srsg_3</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Stranger_Things -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Stranger_Things">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Bilim_kurgu_dizileri"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016-</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33 bölüm</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stranger Things</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/title/tt4574334/?ref_=nv_sr_srsg_0</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#The_Internship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#The_Internship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Komedi"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Two salesmen whose careers have been torpedoed by the digital age find their way into a coveted internship at Google, where they must compete with a group of young, tech-savvy geniuses for a shot at employment.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 saat 59 dakika</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Internship</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/title/tt2234155/?ref_=nv_sr_srsg_1</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#This_is_Us -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#This_is_Us">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Drama_dizileri"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016-</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A heartwarming and emotional story about a unique set of triplets, their struggles and their wonderful parents.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">74 bölüm</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is Us</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/title/tt5555260/?ref_=fn_al_tt_1</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Titanic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Titanic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Drama"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1997</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 saat 14 dakika</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Titanic</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/title/tt0120338/?ref_=nv_sr_srsg_0</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Vikings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Vikings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Aksiyon_dizileri"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vikings transports us to the brutal and mysterious world of Ragnar Lothbrok, a Viking warrior and farmer who yearns to explore - and raid - the distant shores across the ocean.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93 bölüm</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karma</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vikings</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/title/tt2306299/?ref_=nv_sr_srsg_0</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Workin_Moms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Workin_Moms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/selis/ontologies/2020/3/untitled-ontology-9#Komedi_dizileri"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Four very different thirty-something working mothers and friends try to balance their jobs, family life and love life in modern day Toronto, Canada.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">47 bölüm</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Workin&apos;s Moms</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.imdb.com/title/tt6143796/?ref_=nv_sr_srsg_0</rdfs:seeAlso>
+    </owl:Class>
+    <rdf:Description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chernobly</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
